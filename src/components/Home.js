@@ -1,11 +1,9 @@
-import React from 'react';
+import { useState, useEffect } from 'react'
 
-const Home = () => {
+export default function TodosContainer(){
     return (
-        <div>
-            <h1>Home</h1>
+        <div className='todosContainer'>
+            <h1>TodosContainer</h1>
         </div>
     );
 }
-
-export default Home;

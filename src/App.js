@@ -3,7 +3,6 @@
 import Header from './components/Header'
 //import TodosContainer from './containers/TodosContainer'
 import routes from './config/routes'
-
 function App() {
   return (
     <div className="container">
@@ -12,5 +11,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
